@@ -1,0 +1,3 @@
+@mixin transitions($attr ,$time) {
+ transition: $attr $time linear;
+}
