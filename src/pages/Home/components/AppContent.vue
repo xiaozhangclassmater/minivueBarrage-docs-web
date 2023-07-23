@@ -25,6 +25,7 @@
 </template>
 
 <script>
+import { docsUrlType } from "../../../constant";
 export default {
   name: "AppContent",
   components: {},
@@ -33,10 +34,10 @@ export default {
   },
   methods: {
     quickStart() {
-      window.location.href = process.env.miniVueBarrage_Docs_Url;
+      window.location.href = docsUrlType.GITHUB;
     },
     lookDocument() {
-      window.location.href = "https://xiaozhangclassmater.github.io";
+      window.location.href = docsUrlType.PRESS_DOCS;
     }
   }
 };

@@ -56,7 +56,9 @@ module.exports = defineConfig({
         ) : null
       ]
     },
-
+    externals: !isProduction ? {} : {
+      vue: 'Vue',
+    },
     plugins: [
       new HtmlMinimizerPlugin(),
       new CssMinimizerPlugin(),

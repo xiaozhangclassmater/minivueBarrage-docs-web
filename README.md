@@ -1,4 +1,4 @@
-# minivueBarrge
+# minivueBarrage
 
 ## 版本
 
@@ -11,20 +11,20 @@
 `>10.0.0`
 
 
-[中文文档](https://xiaozhangclassmater.github.io/miniVueBarrageDocs/#/home)
+[中文文档](https://xiaozhangclassmater.github.io/minivueBarrage-docs-web/#/home)
 
 如何使用 ？ 
 
 vue2
 
 ~~~js
-npm i minivuebarrage 
+npm i minivueBarrage 
 ~~~
 
 或
 
 ~~~makefile
-yarn add minivuebarrage
+yarn add minivueBarrage
 ~~~
 
 
