@@ -3,7 +3,7 @@
     <div class="Licensed">
       MIT Licensed | Copyright @ 2023 xiaozhangStuden (
       <a
-        href="https://github.com/xiaozhangStuden"
+        :href="docsUrlType.GITHUBHOMEURL"
         class="homePage"
       >Homepage</a>)
     </div>
@@ -11,11 +11,14 @@
 </template>
 
 <script>
+import { docsUrlType } from "@/constant/index";
 export default {
   name: "AppFooter",
   components: {},
   data() {
-    return {};
+    return {
+      docsUrlType
+    };
   },
   methods: {}
 };

@@ -1,7 +1,7 @@
 
 $themes : (
   light : (
-    bgColor : -webkit-linear-gradient(315deg,#42d392  25%, #647eff),
+    bgColor : $theme-linear-gradient,
     color : $black,
     btnBgColor : #f1f1f1,
     borderColor : #bcbcbc,
@@ -9,7 +9,7 @@ $themes : (
     themeSvgColor : #767676,
     githubLeftColor : $white,
     docBgColor : $white,
-    customColor : -webkit-linear-gradient(315deg,#42d392  25%, #647eff)
+    customColor : $theme-linear-gradient
   ),
   dark : (
     bgColor : $black,
