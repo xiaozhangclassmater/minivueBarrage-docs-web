@@ -1,6 +1,6 @@
 <template>
   <div class="top-stage">
-    <div class="github-shan">
+    <div class="github-shan" @click="iconClickHande(docsUrlType.GITHUBHOMEURL)">
       <svg-icon icon-class="github" />
     </div>
     <div class="header">
@@ -31,8 +31,8 @@
   </div>
 </template>
 <script>
-import { attributeType, themeType, svgNameType } from "@/constant";
-import { setAttribute, getAttribute } from "@/utils";
+import { attributeType, docsUrlType, svgNameType, themeType } from "@/constant";
+import { getAttribute, setAttribute } from "@/utils";
 export default {
   name: "HomeHeader",
   components: {},
@@ -41,12 +41,12 @@ export default {
       menus: [
         {
           id: 1,
-          url: "https://github.com/xiaozhangStuden",
+          url: docsUrlType.GITHUBHOMEURL,
           svgName: svgNameType.GITHUBLOGO
         },
         {
           id: 2,
-          url: "https://juejin.cn/user/1922381414934589",
+          url: docsUrlType.JUEJINHOMEURL,
           svgName: svgNameType.JUEJIN
         },
         {
@@ -56,6 +56,7 @@ export default {
         }
       ],
       svgNameType,
+      docsUrlType,
       themeTypeIsDark: false
     };
   },
