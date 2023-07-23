@@ -1,6 +1,6 @@
 <template>
   <div class="top-stage">
-    <div class="github-shan">
+    <div class="github-shan" @click="iconClickHande(docsUrlType.GITHUBHOMEURL)">
       <svg-icon icon-class="github" />
     </div>
     <div class="header">
@@ -56,6 +56,7 @@ export default {
         }
       ],
       svgNameType,
+      docsUrlType,
       themeTypeIsDark: false
     };
   },
