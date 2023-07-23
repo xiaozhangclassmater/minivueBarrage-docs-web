@@ -5,7 +5,7 @@ const CssMinimizerPlugin = require("css-minimizer-webpack-plugin");
 const path = require('path')
 
 const isProduction = process.env.NODE_ENV === 'production'
-
+console.log('', isProduction);
 function resolve(dir) {
   return path.join(__dirname, dir)
 }
