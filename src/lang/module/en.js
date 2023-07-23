@@ -2,7 +2,7 @@ export default {
   Home: {
     pluginDesc: 'A bullet-screen component for the vue framework',
     pluginDescTitle: 'A lightweight yet feature-rich barrage plugin',
-    quickStartBtn: 'Get started quickly',
+    quickStartBtn: 'Get Started',
     viewDocumentBtn: 'view Document',
     AdvantageOneTitle: 'View document',
     AdvantageOnecontent: 'For operations, you only need to call the instance method, which supports full screen',
