@@ -14,5 +14,7 @@ export const svgNameType = {
 
 export const docsUrlType = {
   GITHUB: 'https://github.com/xiaozhangclassmater/minivueBarrage-docs-web',
-  PRESS_DOCS: 'https://xiaozhangclassmater.github.io'
+  PRESS_DOCS: 'https://xiaozhangclassmater.github.io',
+  GITHUBHOMEURL: 'https://github.com/xiaozhangclassmater',
+  JUEJINHOMEURL: 'https://juejin.cn/user/1922381414934589',
 }
