@@ -59,7 +59,7 @@ Vue.use(miniVueBarrage)
 ~~~vue
 <template>
   <div class="Home">
-    <miniVueBarrage class="barrages-ctn":barrages="barrages" />
+    <miniVueBarrage class="barrages-ctn" ref='barrage' :barrages="barrages" />
   </div>
 </template>
 <script>
