@@ -19,6 +19,8 @@
 <script>
 // import Barrage from "./components/barrage/index.vue";
 // import data from "../Mock/Index.js";
+import { setAttribute } from "@/utils";
+import { attributeType, themeType } from "./constant";
 export default {
   components: {
     // Barrage
@@ -30,7 +32,10 @@ export default {
       // barrages: data.list
     };
   },
-  mounted() {},
+
+  mounted() {
+    setAttribute("html", attributeType.DATA_THEME, themeType.LIGHT);
+  },
   methods: {
     // add(e) {
     //   if (!this.value.trim()) return;

@@ -1,23 +1,23 @@
 <template>
   <div class="AppContent">
     <div class="content">
-      <h1 class="title content-Title">一个轻量而又功能丰富的弹幕插件</h1>
+      <h1 class="title content-Title">{{$t('Home.pluginDescTitle')}}</h1>
       <div class="button-group">
-        <a target="_blank" @click="quickStart">快速上手</a>
-        <a target="_blank" @click="lookDocument" class="fan">查看文档</a>
+        <a target="_blank" @click="quickStart">{{$t('Home.quickStartBtn')}}</a>
+        <a target="_blank" @click="lookDocument" class="fan">{{$t('Home.viewDocumentBtn')}}</a>
       </div>
       <div class="desc-container">
         <div class="desc-item">
-          <h2>易用</h2>
-          <p>针对操作,只需调用实例方法即可，支持全屏</p>
+          <h2>{{$t('Home.AdvantageOneTitle')}}</h2>
+          <p>{{$t('Home.AdvantageOnecontent')}}</p>
         </div>
         <div class="desc-item">
-          <h2>高性能</h2>
-          <p>单条弹幕生成，时间速度可配置并支持批量删除</p>
+          <h2>{{$t('Home.AdvantageTwoTitle')}}</h2>
+          <p>{{$t('Home.AdvantageTwoContent')}}</p>
         </div>
         <div class="desc-item">
-          <h2>独立且丰富</h2>
-          <p>弹幕数据开发者自己管理，只需一个弹幕队列</p>
+          <h2>{{$t('Home.AdvantageThreeTitle')}}</h2>
+          <p>{{$t('Home.AdvantageThreeContent')}}</p>
         </div>
       </div>
     </div>
@@ -68,6 +68,7 @@ export default {
         position: relative;
         height: 50px;
         border-radius: 50px;
+        width: auto;
         margin: 1em 0;
         letter-spacing: 0.1em;
         min-width: 8em;
@@ -77,6 +78,8 @@ export default {
         font-size: 1.2em;
         line-height: 2.7em;
         font-weight: 100;
+        padding: 0 15px;
+        box-sizing: border-box;
         @include theme-color {
           border: 1px solid getVar("borderColor");
         }
