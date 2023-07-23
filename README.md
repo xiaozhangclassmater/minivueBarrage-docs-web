@@ -10,7 +10,6 @@
 
 `>10.0.0`
 
-
 [中文文档](https://xiaozhangclassmater.github.io/minivueBarrage-docs-web/#/home)
 
 如何使用 ？ 
@@ -81,7 +80,48 @@ export default {
 
 ~~~
 
-**入参选项列表**
+### 高级用法
+
+我们对该组件实例本身暴露了以下几个方法。
+
+| name        | 组件实例         | type                       | desc         |
+| ----------- | ---------------- | -------------------------- | ------------ |
+| add         | 实例本身即可调用 | function(barrageItme){}    | 添加弹幕     |
+| reset       | 实例本身即可调用 | function(){}               | 重置弹幕     |
+| pause       | 实例本身即可调用 | function(){}               | 暂停弹幕     |
+| close       | 实例本身即可调用 | function(){}               | 关闭弹幕     |
+| play        | 实例本身即可调用 | function(){}               | 开启运行弹幕 |
+| changeColor | 实例本身即可调用 | function(color : string){} | 更改弹幕颜色 |
+
+`add`
+
+~~~js
+  add(e) {
+      if (!this.value.trim()) return;
+      this.$refs.barrage.add({
+        content: this.value
+      });
+      this.value = "";
+    },
+~~~
+
+`changeColor`
+
+~~~JS
+ changeColor() {
+      this.$refs.barrage.changeColor(this.color);
+ }
+~~~
+
+`close`
+
+~~~js
+ close() {
+      this.$refs.barrage.close();
+ }	,
+~~~
+
+### **入参选项列表**
 
 | props           | type        | default                                     | isRrquire | desc                                                |
 | --------------- | ----------- | ------------------------------------------- | --------- | --------------------------------------------------- |
