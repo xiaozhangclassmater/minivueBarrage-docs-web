@@ -1,7 +1,7 @@
 <template>
   <div class="AppFooter">
     <div class="Licensed">
-      MIT Licensed | Copyright @ 2023 xiaozhangStuden (
+      MIT Licensed | Copyright @ 2023 xioazhangclassmater (
       <a
         :href="docsUrlType.GITHUBHOMEURL"
         class="homePage"
