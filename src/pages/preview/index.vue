@@ -1,6 +1,12 @@
 <template>
   <div class="preview">
-    <miniVueBarrage :barrages="barrages" isBatchDestory fullScreen ref="barrage" />
+    <miniVueBarrage
+      class="barrage-wapper"
+      :barrages="barrages"
+      isBatchDestory
+      fullScreen
+      ref="barrage"
+    />
     <div class="operation">
       <el-form ref="form" label-width="80px">
         <el-form-item label="弹幕内容" size="small">
@@ -69,6 +75,9 @@ export default {
 
 <style lang='scss' scoped>
 .preview {
+  .barrage-wapper {
+    width: 90vw;
+  }
   .operation {
     width: 30%;
     margin: 0 auto;
