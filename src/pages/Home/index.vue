@@ -3,7 +3,7 @@
     <AppHeader />
     <AppContent />
     <AppFooter />
-    <!-- <miniVueBarrage class="barrages-ctn" fullScreen :barrages="barrages" /> -->
+    <!-- <miniVueBarrage class="barrages-ctn" :barrages="barrages" /> -->
   </div>
 </template>
 

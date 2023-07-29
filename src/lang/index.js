@@ -7,7 +7,7 @@ import langEn from './module/en';
 import langZh from './module/zh';
 Vue.use(VueI18n)
 const i18n = new VueI18n({
-  locale: 'en',
+  locale: 'zh',
   messages: {
     en: {
       ...elementEN,
