@@ -13,7 +13,7 @@
     "element-ui": "^2.15.13",
     "html-minimizer-webpack-plugin": "^4.4.0",
     "lodash": "^4.17.21",
-    "minivuebarrage": "^0.3.2",
+    "minivuebarrage": "^0.3.3",
     "mockjs": "^1.1.0",
     "normalize.css": "^8.0.1",
     "sass": "^1.63.6",
