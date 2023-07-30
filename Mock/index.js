@@ -5,7 +5,7 @@ const data = Mock.mock({
     type: "common",
     content: '@name',
     url: 'https://www.baidu.com',
-    imgLink: Mock.Random.image()
+    Icon: Mock.Random.image()
   }]
 })
 
