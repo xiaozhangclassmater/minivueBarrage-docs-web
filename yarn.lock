@@ -4554,10 +4554,10 @@ minipass@^3.1.1:
   dependencies:
     yallist "^4.0.0"
 
-minivuebarrage@^0.3.4:
-  version "0.3.4"
-  resolved "https://registry.yarnpkg.com/minivuebarrage/-/minivuebarrage-0.3.4.tgz#c7e2e5f9ab04ffd54e521fcfc2f1d7656bc7ffb8"
-  integrity sha512-fKzrbF+YAlmj16weHp6KvuXE+cRJxvHmDqGgMO91h9toBn9PxLhkFKM0ZNEANsLKwm3h3PXsAEhwI2hmpUgmfA==
+minivuebarrage@^0.3.5:
+  version "0.3.5"
+  resolved "https://registry.yarnpkg.com/minivuebarrage/-/minivuebarrage-0.3.5.tgz#fe8f7ae68f70b4befcf8574aa7e6d8bf8fde03b5"
+  integrity sha512-Ne0P5Di8qXF9AWeOQlBNx0R2hK1JbTRjT7a0Mq1aj32KxJPb+XeLs4eDRbnjAkuBnGdT4Wg88pYyMV7KLMQDWQ==
 
 mitt@1.1.2:
   version "1.1.2"
