@@ -37,7 +37,8 @@ export default {
       window.location.href = docsUrlType.PRESS_DOCS;
     },
     lookDocument() {
-      this.$router.push("/dashboard/preview");
+      window.location.href = docsUrlType.VUE3_DOCS_URL
+      // this.$router.push("/dashboard/preview");
     }
   }
 };

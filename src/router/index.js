@@ -21,7 +21,7 @@ const routes = [
       {
         path: 'preview',
         name: 'preview',
-        component: () => import('@/pages/preview/index.vue')
+        // component: () => import('@/pages/preview/index.vue')
       }
     ]
   },
